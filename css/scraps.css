@@ -1,0 +1,9 @@
+/* Responsive nav menu */
+
+@media screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: flex-end;
+        top: 40px;
+    }
+}
