@@ -1,5 +1,5 @@
 // navbar
 function toggleMenu() {
-    var menu = document.querySelector('nav ul');
-    menu.classList.toggle('show-menu');
+    var nav = document.querySelector('nav');
+    nav.classList.toggle('active');
 }
