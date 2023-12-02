@@ -27,6 +27,7 @@ header {
 
 .menu-toggle {
     margin-left: auto;
+    cursor: pointer;
 }
 
 /* Header - links */
@@ -74,11 +75,20 @@ li {
         box-sizing: border-box;
         flex-direction: column;
         align-items: flex-end;
-
     }
 
     li {
         margin-right: 0;
         margin-bottom: 10px; /* Adjust the spacing between list items */
     }
+}
+
+/* hover items */
+
+.menu-toggle:hover {
+    text-decoration: underline;
+}
+
+.logo-container:hover {
+    cursor: pointer;
 }
