@@ -1,0 +1,9 @@
+/* styles.css */
+
+.chatbox-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid black;
+    height: 300px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+}

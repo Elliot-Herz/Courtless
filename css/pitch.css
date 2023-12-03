@@ -1,0 +1,10 @@
+.pitch {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin-top value as needed */
+}
+
+.pitch h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

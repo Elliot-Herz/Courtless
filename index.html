@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/pitch.css">
     <title>Courtless</title>
     <script src="scripts/app.js"></script>
 </head>
@@ -27,6 +28,19 @@
             </ul>
         </nav>
     </header>
+
+    <section class="pitch">
+        <h1>Justice</h1>
+        <h2>Fairer. Faster. Cheaper.</h2>
+    </section>
+
+    <section>
+        <form onsubmit="generateResponse(); return false;">
+            <label for="userInput">Enter your message:</label>
+            <input type="text" id="userInput" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 
 </html>
