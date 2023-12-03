@@ -1,9 +1,15 @@
-/* styles.css */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.chatbox-section {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border: 1px solid black;
-    height: 300px; /* Adjust the height as needed */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+#userInput {
+    width: 500px;
+    height: 100px;
+    resize: vertical;
+}
+
+label, input, button {
+    margin-right: 5px;
 }

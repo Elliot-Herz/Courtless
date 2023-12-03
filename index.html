@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/pitch.css">
+    <link rel="stylesheet" href="/css/chatbox.css">
     <title>Courtless</title>
     <script src="scripts/app.js"></script>
 </head>
@@ -22,9 +23,10 @@
 
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Learn Your Rights</a></li>
+                <li><a href="#contact">Negotiate</a></li>
+                <li><a href="#services">Mediate</a></li>
+                <li><a href="#contact">Arbitrate</a></li>
             </ul>
         </nav>
     </header>
@@ -36,11 +38,13 @@
 
     <section>
         <form onsubmit="generateResponse(); return false;">
-            <label for="userInput">Enter your message:</label>
-            <input type="text" id="userInput" required>
-            <button type="submit">Submit</button>
+            <div class="input-container">
+                <textarea id="userInput" required placeholder="Learn your rights..."></textarea>
+                <button type="Submit">Submit</button>
+            </div>
         </form>
     </section>
+
 </body>
 
 </html>
